@@ -1,9 +1,4 @@
-**********************************************************************
-** Visual Studio 2017 Developer Command Prompt v15.8.9
-** Copyright (c) 2017 Microsoft Corporation
-**********************************************************************
-
-C:\Users\Jason Johansson\source\repos\CEN4020-FSU\Assignment1>git status
+C:\Users\Jason Johansson\Source\Repos\CEN4020-FSU\Assignment1>git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -19,5 +14,7 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
         .vs/Assignment1/v15/Browse.VC.opendb
+        .vs/tasks.vs.json
+        docs/temp.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
