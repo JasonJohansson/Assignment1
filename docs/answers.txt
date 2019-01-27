@@ -1,0 +1,65 @@
+Jason Johansson
+Question 3.E
+1/27/19
+
+a)	
+	C:\Users\Jason Johansson\Source\Repos\CEN4020-FSU\Assignment1>git commit docs/status.txt
+	warning: CRLF will be replaced by LF in docs/status.txt.
+	The file will have its original line endings in your working directory
+	warning: CRLF will be replaced by LF in docs/status.txt.
+	The file will have its original line endings in your working directory
+	[master afc2199] Pasted output of "git status" command to the file "status.txt".
+	 1 file changed, 4 insertions(+), 7 deletions(-)
+
+	C:\Users\Jason Johansson\Source\Repos\CEN4020-FSU\Assignment1>git push
+	Enumerating objects: 7, done.
+	Counting objects: 100% (7/7), done.
+	Delta compression using up to 12 threads
+	Compressing objects: 100% (4/4), done.
+	Writing objects: 100% (4/4), 476 bytes | 476.00 KiB/s, done.
+	Total 4 (delta 2), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+	To https://github.com/JasonJohansson/Assignment1.git
+	   b4db0bd..afc2199  master -> master
+b)
+	In my case, there have been 5 commits. 2 by Javier and 3 by me. There should be a total of 4, instead
+	of 5, but I didn't record the output for the question earlier so I had to do it again. I got this 
+	information from the "git log" command. 
+
+c)
+	Last modified on Thu Jan 10 16:45:38 2019. I used the "git log .gitignore" command.
+
+d)
+	1) You are testing your own changes and to not interfere with the code of the rest of the project.
+	2) Your team is preparing 2 variations of the project and are working on them simultaneously, both of which 
+	follow different branches.
+e)
+	"git log" shows all the commits with their respective author, date, and comments, while "git status" shows the status of your
+	changes in your working tree, whether or not these changes are up to date, as well as files that are staged for commit.
+f)
+	git log "Weapon.h"
+g)
+	git log --grep="file"
+h)
+	I)
+		Inheritance is the idea in OOP of relationships between classes where one class is a "parent" and others are "children" and
+		these children "inherit" aspects of the parent.
+	II)
+		Polymorphism is being able to process the same function differently depending on object. In OOP, this can be done through 
+		virtual functions and inheritance. 
+	III)
+		Encapsulation refers to the idea of not letting member data be modified directly, but by "encapsulating" it in member functions
+		and allowing changes through them instead.
+i)
+	"Dictator and Lieutenants" has some developers merge at the lieutenant repository and solve conflicts there, then pushes them to 
+	the dictator repository, which again has conflicts solved. "Integration Management" also pulls fromt the central repository, but
+	everyone pushes to the integration manager who solves the conflicts.
+j)
+	Since there are more employees, files to manage, and thus more potential conflicts, solving them at an intermidiate "lieutenant"
+	stage would create less chaos as there are less conflicts between the smaller file sets. This is also more managable as files
+	that are dependent on each other can be grouped into each lieutenant repo.
+
+
+	
+	
+	
