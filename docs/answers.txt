@@ -59,7 +59,11 @@ j)
 	stage would create less chaos as there are less conflicts between the smaller file sets. This is also more managable as files
 	that are dependent on each other can be grouped into each lieutenant repo.
 
-
+5)
+	Yes the RoleGame prototype uses both polymorphism and encapsulation. The prototype uses polymorphism in that it uses the parent
+	class "Weapon" for the Spear, Sword, Hammer, etc. These weapons all inherit data from class Weapon including hitPoints, name, the
+	hit function, and the constructor/destructor. The prototype also uses encapsulation in that it uses the public member function
+	getName and keeps the hitPoints data protected. This "encapsulates" the data and only allows access through the intended source. 
 	
 	
 	
