@@ -6,7 +6,11 @@
  * Created on September 25, 2017, 3:19 PM
  */
 
+//Modified by Jason Johansson
+//January 29, 2019
+
 #include <cstdlib>
+#include <ctime>
 #include <iostream>
 #include "Weapon.h"
 #include "WeaponFactory.h"
@@ -28,8 +32,9 @@ void simulateWeapon(Weapon * weapon, double armor) {
  * 
  */
 int main(int argc, char** argv) {
-
-    double armor = 29;
+	srand(time(NULL));		//method referenced from 
+							//http://www.math.uaa.alaska.edu/~afkjm/csce211/fall2018/handouts/RandomFunctions.pdf
+	double armor = 29;
 
     Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
     simulateWeapon(weapon, armor);
@@ -38,6 +43,18 @@ int main(int argc, char** argv) {
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
     simulateWeapon(weapon, armor);
     delete(weapon);
+
+	weapon = WeaponFactory::getInstance()->getWeapon("dagger");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
+
+	weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
+
+	weapon = WeaponFactory::getInstance()->getWeapon("CrazyRandomSword");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
     return 0;
 }
