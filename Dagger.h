@@ -1,6 +1,6 @@
 //Jason Johansson
 //Dagger.h
-//Dagger hits for 10dmg and ignores 75-100% of armor
+//Dagger hits for 30 dmg and ignores 75-100% of armor
 
 #ifndef DAGGER_H
 #define DAGGER_H
@@ -10,7 +10,7 @@
 
 class Dagger : public Weapon {
 public: 
-	Dagger() : Weapon("Dagger", 10.0) {}
+	Dagger() : Weapon("Dagger", 30.0) {}
 	virtual ~Dagger() {};
 	virtual double hit(double armor);
 };
