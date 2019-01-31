@@ -1,0 +1,55 @@
+1c78608 refs/remotes/origin/master@{0}: update by push
+1c78608 refs/heads/master@{0}: commit: Removed ".vs" directory. It was only used for local Visual Studio development.
+1c78608 HEAD@{0}: commit: Removed ".vs" directory. It was only used for local Visual Studio development.
+3009242 refs/heads/master@{1}: commit: removed ".vs" directory. Is only used for Visual Studio development locally
+3009242 HEAD@{1}: commit: removed ".vs" directory. Is only used for Visual Studio development locally
+232c7a9 refs/remotes/origin/master@{1}: update by push
+232c7a9 refs/heads/master@{2}: merge development: Fast-forward
+232c7a9 HEAD@{2}: merge development: Fast-forward
+b299f41 HEAD@{3}: checkout: moving from development to master
+232c7a9 refs/remotes/origin/development@{0}: update by push
+232c7a9 refs/heads/development@{0}: commit: Added answer to question 5 "RoleGame OOP principles" to answers.txt
+232c7a9 HEAD@{4}: commit: Added answer to question 5 "RoleGame OOP principles" to answers.txt
+74f210a refs/remotes/origin/development@{1}: update by push
+74f210a refs/heads/development@{1}: commit: Added new test cases for CrazyRandomSword, Dagger, and SimpleHammer in main.cpp
+74f210a HEAD@{5}: commit: Added new test cases for CrazyRandomSword, Dagger, and SimpleHammer in main.cpp
+3f7d118 refs/remotes/origin/development@{2}: update by push
+3f7d118 refs/heads/development@{2}: commit: Updated dagger to 30dmg and fixed armor ignoring math issue
+3f7d118 HEAD@{6}: commit: Updated dagger to 30dmg and fixed armor ignoring math issue
+720daaa refs/remotes/origin/development@{3}: update by push
+720daaa refs/heads/development@{3}: commit: Updated WeaponFactory.cpp to implement new weapons: SimpleHammer, CrazyRandomSword, Dagger
+720daaa HEAD@{7}: commit: Updated WeaponFactory.cpp to implement new weapons: SimpleHammer, CrazyRandomSword, Dagger
+ae7ec79 refs/remotes/origin/development@{4}: update by push
+ae7ec79 refs/heads/development@{4}: commit: Implemented Dagger class prototype and functions
+ae7ec79 HEAD@{8}: commit: Implemented Dagger class prototype and functions
+0c55a62 refs/remotes/origin/development@{5}: update by push
+0c55a62 refs/heads/development@{5}: commit: Implemented CrazyRandomSword class prototype and functions
+0c55a62 HEAD@{9}: commit: Implemented CrazyRandomSword class prototype and functions
+98094c9 refs/remotes/origin/development@{6}: update by push
+98094c9 refs/heads/development@{6}: commit: Implemented SimpleHammer class prototype and functions
+98094c9 HEAD@{10}: commit: Implemented SimpleHammer class prototype and functions
+e2c76c3 refs/remotes/origin/development@{7}: update by push
+e2c76c3 refs/heads/development@{7}: commit: Created .h and .cpp files for weapons SimpleHammer, CrazyRandomSword, and Dagger
+e2c76c3 HEAD@{11}: commit: Created .h and .cpp files for weapons SimpleHammer, CrazyRandomSword, and Dagger
+b299f41 refs/remotes/origin/development@{8}: update by push
+b299f41 refs/heads/development@{8}: branch: Created from b299f416980ae6b99d0c466fc235d0562cae62a1
+b299f41 HEAD@{12}: checkout: moving from master to development
+b299f41 refs/remotes/origin/master@{2}: update by push
+b299f41 refs/heads/master@{3}: commit: Answered questions to 3.E and wrote them to the file "docs/answers.txt".
+b299f41 HEAD@{13}: commit: Answered questions to 3.E and wrote them to the file "docs/answers.txt".
+afc2199 refs/remotes/origin/master@{3}: update by push
+afc2199 refs/heads/master@{4}: commit: Pasted output of "git status" command to the file "status.txt".
+afc2199 HEAD@{14}: commit: Pasted output of "git status" command to the file "status.txt".
+b4db0bd refs/remotes/origin/master@{4}: update by push
+b4db0bd refs/heads/master@{5}: commit: Added empty file "answers.txt" to docs folder.
+b4db0bd HEAD@{15}: commit: Added empty file "answers.txt" to docs folder.
+52a530f refs/remotes/origin/master@{5}: update by push
+52a530f refs/heads/master@{6}: commit: Added output of "git status" command from the console to the file doc/status.txt. Question 3.C
+52a530f HEAD@{16}: commit: Added output of "git status" command from the console to the file doc/status.txt. Question 3.C
+fb879fe refs/remotes/origin/master@{6}: update by push
+fb879fe refs/heads/master@{7}: commit: Added name and FSUID to README
+fb879fe HEAD@{17}: commit: Added name and FSUID to README
+3d373c9 refs/remotes/upstream/master@{0}: fetch upstream
+3d373c9 refs/heads/master@{8}: clone: from https://github.com/CEN4020-FSU/Assignment1
+3d373c9 refs/remotes/origin/HEAD@{0}: clone: from https://github.com/CEN4020-FSU/Assignment1
+3d373c9 HEAD@{18}: clone: from https://github.com/CEN4020-FSU/Assignment1
